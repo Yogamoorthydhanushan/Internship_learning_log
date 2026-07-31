@@ -68,11 +68,17 @@ This showed me how modern applications can be deployed quickly and efficiently.
 ## Skills and Knowledge Gained...
 
 Next.js project structure and development workflow
+
  Building responsive user interfaces
+ 
  Implementing authentication
+ 
  Connecting applications to MongoDB
+ 
  Understanding CRUD database operations
+ 
  Deploying applications using Vercel
+ 
  Managing a complete full-stack web application development lifecycle
 
 
