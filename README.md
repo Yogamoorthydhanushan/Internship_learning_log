@@ -84,6 +84,103 @@ Next.js project structure and development workflow
 
 
 
+ # Day  – AI Fundamentals (NetAcad)
+
+03 August 2026
+
+##  Learning Objectives
+
+* Started the AI Fundamentals course on NetAcad.
+* Learned what Artificial Intelligence (AI) is.
+* Understood the history and evolution of AI.
+* Explored different types of AI such as Narrow AI and General AI.
+* Learned how AI is used in everyday life, including virtual assistants, recommendation systems, healthcare, and autonomous vehicles.
+
+##  Key Concepts Learned
+
+* Definition of Artificial Intelligence
+* Types of AI
+* AI applications in real-world scenarios
+* Benefits and challenges of AI
+
+##  What I Learned
+
+Today I gained a strong understanding of the fundamentals of Artificial Intelligence. I learned how AI is transforming industries and improving everyday life through automation and intelligent decision-making.
+
+##  Skills Gained
+
+* Basic AI concepts
+* Understanding AI applications
+* Knowledge of AI history and evolution
+
+
+#  AI Fundamentals (NetAcad)
+
+
+04 August 2026
+
+##  Learning Objectives
+
+* Learned the basics of Machine Learning.
+* Understood the difference between Artificial Intelligence, Machine Learning, and Deep Learning.
+* Explored supervised, unsupervised, and reinforcement learning.
+* Learned how AI systems are trained using datasets.
+
+##  Key Concepts Learned
+
+* Machine Learning fundamentals
+* Types of Machine Learning
+* Training data and models
+* Features and labels
+* AI model training process
+
+##  What I Learned
+
+Today I understood how AI systems learn from data instead of being explicitly programmed. I learned the importance of quality datasets and how different machine learning approaches solve different types of problems.
+
+##  Skills Gained
+
+* Machine Learning basics
+* Understanding AI training process
+* Knowledge of data-driven AI models
+
+
+
+  
+#  AI Fundamentals (NetAcad)
+
+05 August 2026
+
+## Learning Objectives
+
+* Learned about responsible and ethical AI.
+* Understood AI bias, fairness, transparency, and privacy.
+* Explored real-world AI case studies.
+* Completed the course modules and reviewed key concepts.
+
+## Key Concepts Learned
+
+* Ethical AI
+* Responsible AI principles
+* AI bias and fairness
+* Privacy and security in AI
+* Future trends in Artificial Intelligence
+
+## What I Learned
+
+Today I learned that developing AI is not only about creating intelligent systems but also about ensuring they are fair, transparent, secure, and beneficial to society. Responsible AI is essential for building trustworthy applications.
+
+## Skills Gained
+
+* AI ethics awareness
+* Responsible AI principles
+* Understanding AI governance
+* Overall AI Fundamentals knowledge
+
+
+
+
+
 
 
 
