@@ -81,7 +81,7 @@ Next.js project structure and development workflow
  
  Managing a complete full-stack web application development lifecycle
 
-# Linux Essentials (Cisco NetAcad)
+# Linux Essentials (Cisco NetAcad) day-01
 
  03 August 2026
 
@@ -163,7 +163,7 @@ date
 Today's session helped me understand the fundamentals of Linux, the importance of open-source software, Linux distributions, and basic terminal navigation. I also practiced essential Linux commands that will be used throughout the course.
 
 
-# Linux Essentials (Cisco NetAcad)
+# Linux Essentials (Cisco NetAcad)  day-02
 
 04 August 2026
 
@@ -252,7 +252,7 @@ Today's session improved my understanding of Linux file management and directory
 
 
 
- # Linux Essentials (Cisco NetAcad)
+ # Linux Essentials (Cisco NetAcad)  day-03
 
  05 August 2026
 
@@ -330,6 +330,84 @@ history
 ## Summary
 
 Today's learning strengthened my understanding of Linux security, user management, package management, and system monitoring. These concepts are essential for system administration, cloud computing, DevOps, and software engineering.
+
+
+# Linux Essentials –day-04
+
+ 06 August 2026
+
+## Learning Summary
+
+Today, I continued my Cisco NetAcad **Linux Essentials** learning journey by exploring Linux commands, shell variables, and environment variables in greater depth. The session was highly practical, allowing me to understand not only the purpose of different commands but also how they are used in real Linux environments. I spent considerable time working in the terminal, executing commands, understanding their outputs, and correcting mistakes through repeated practice. This hands-on approach significantly improved my confidence in using the Linux command-line interface.
+
+One of the main topics covered today was Linux commands. I learned that every command consists of a command name, optional flags, and arguments, and that understanding this structure makes it easier to use new commands. I practiced navigating the Linux file system, managing files and directories, and retrieving system information. These exercises helped me understand how Linux users perform daily administrative tasks efficiently without relying on a graphical user interface.
+
+## Linux Commands Practiced
+
+Throughout today's practical session, I worked with several commonly used Linux commands, including:
+
+* `pwd` – Display the current working directory.
+* `ls` and `ls -l` – List files and directories with detailed information.
+* `cd` – Navigate between directories.
+* `mkdir` – Create new directories.
+* `touch` – Create new files.
+* `cp` – Copy files and directories.
+* `mv` – Move or rename files.
+* `rm` and `rmdir` – Remove files and directories.
+* `cat` – Display the contents of a file.
+* `echo` – Print text and display variable values.
+* `history` – View previously executed commands.
+* `clear` – Clear the terminal screen.
+
+By practicing these commands repeatedly, I became more comfortable working directly in the terminal and developed a better understanding of how Linux manages files and directories.
+
+## Understanding Linux Variables
+
+Another important topic I studied today was Linux variables. I learned that variables are used to store information that can be accessed by the shell or other programs during execution. I explored the difference between **shell variables** and **environment variables**, understanding that environment variables are available to child processes and play an important role in configuring the Linux environment.
+
+I also explored several commonly used environment variables, including:
+
+* `$USER` – Displays the currently logged-in user.
+* `$HOME` – Shows the user's home directory.
+* `$PATH` – Lists directories where executable programs are searched.
+* `$PWD` – Displays the current working directory.
+* `$SHELL` – Identifies the current shell being used.
+
+In addition, I practiced creating my own variables using the `export` command and verified their values using the `echo` command. This helped me understand how variables simplify command execution and automate repetitive tasks.
+
+## Hands-on Laboratory Experience
+
+Today's laboratory session was one of the most valuable parts of the learning process. Instead of simply reading about Linux commands, I applied them in a live Linux environment by completing a series of guided exercises. I created directories, generated files, copied and moved data, deleted unnecessary files, navigated through different locations in the file system, and experimented with environment variables.
+
+While performing these activities, I encountered a few minor errors due to incorrect command syntax and file paths. Rather than viewing these mistakes as setbacks, I used them as learning opportunities by identifying the cause of each error and correcting it. This practical experience improved both my problem-solving ability and my confidence when working in the Linux terminal.
+
+## Module Quiz and Self-Evaluation
+
+After completing the learning modules and laboratory exercises, I attempted the module quizzes provided in Cisco NetAcad. These quizzes served as an excellent way to evaluate my understanding of the concepts I had studied throughout the day.
+
+The quiz covered a variety of topics, including Linux fundamentals, Linux distributions, command-line usage, variables, cloud computing, virtualization, open-source software, licensing, networking concepts, and basic Linux security. Answering these questions allowed me to measure how well I understood the material and identify the topics that required additional revision.
+
+After reviewing the quiz results, I reflected on both my strengths and the areas where I needed improvement. I revisited the questions I found challenging and reviewed the related learning materials. This process reinforced my understanding and increased my confidence in applying Linux concepts in practical situations.
+
+## Skills Developed
+
+Through today's learning activities, I strengthened several important technical skills, including:
+
+* Linux terminal navigation.
+* File and directory management.
+* Command-line operations.
+* Working with shell and environment variables.
+* Understanding Linux command syntax.
+* Troubleshooting basic command-line errors.
+* Practical problem-solving through laboratory exercises.
+* Self-evaluation through module assessments.
+
+## Personal Reflection
+
+Today's session was one of the most engaging learning experiences so far in the Linux Essentials course. The combination of theoretical lessons, practical laboratory exercises, and module quizzes provided a balanced learning experience. The hands-on labs allowed me to apply the concepts immediately, while the quizzes helped me evaluate my understanding and identify areas for further improvement.
+
+Overall, I feel much more confident using Linux commands and understanding how environment variables work. I believe the knowledge and practical skills I gained today will serve as a strong foundation for future topics in Linux system administration, DevOps, cloud computing, and software engineering. I will continue practicing these commands regularly to improve my speed, accuracy, and confidence when working in Linux environments.
+
 
 
 
