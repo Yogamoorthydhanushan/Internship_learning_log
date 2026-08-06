@@ -81,101 +81,259 @@ Next.js project structure and development workflow
  
  Managing a complete full-stack web application development lifecycle
 
+# Linux Essentials (Cisco NetAcad)
+
+ 03 August 2026
+
+## Objective
+
+Today I started the Cisco NetAcad Linux Essentials course to build a strong foundation in Linux, which is widely used in software development, cloud computing, DevOps, cybersecurity, and server administration.
+
+## Topics Covered
+
+### Introduction to Linux
+
+* What is Linux?
+* History of Linux and its development by Linus Torvalds.
+* Understanding the Linux kernel.
+* Importance of open-source software.
+* Difference between Linux distributions and the Linux kernel.
+
+### Linux Distributions
+
+* Ubuntu
+* Debian
+* Fedora
+* CentOS
+* Red Hat Enterprise Linux (RHEL)
+
+### Why Linux?
+
+* High security
+* Stability and reliability
+* Free and open source
+* Excellent performance
+* Used in servers and cloud environments
+* Popular among software developers and DevOps engineers
+
+### Linux Architecture
+
+* Hardware
+* Kernel
+* Shell
+* User Applications
+
+### Command Line Interface (CLI)
+
+* Difference between GUI and CLI.
+* Why Linux professionals prefer the terminal.
+* Opening and using the terminal.
+
+## Commands Practiced
+
+```bash
+pwd
+ls
+ls -l
+ls -a
+cd
+clear
+whoami
+hostname
+date
+```
+
+## Practical Activities
+
+* Navigated between directories.
+* Displayed hidden files.
+* Checked the current working directory.
+* Explored the Linux terminal interface.
+* Learned command syntax and terminal shortcuts.
+
+## Key Learnings
+
+* Linux is an operating system based on the Unix philosophy.
+* The shell acts as an interface between the user and the kernel.
+* Every Linux command follows a specific syntax.
+* Terminal skills are essential for software engineering and DevOps.
+
+## Summary
+
+Today's session helped me understand the fundamentals of Linux, the importance of open-source software, Linux distributions, and basic terminal navigation. I also practiced essential Linux commands that will be used throughout the course.
 
 
-
- # Day  – AI Fundamentals (NetAcad)
-
-03 August 2026
-
-##  Learning Objectives
-
-* Started the AI Fundamentals course on NetAcad.
-* Learned what Artificial Intelligence (AI) is.
-* Understood the history and evolution of AI.
-* Explored different types of AI such as Narrow AI and General AI.
-* Learned how AI is used in everyday life, including virtual assistants, recommendation systems, healthcare, and autonomous vehicles.
-
-##  Key Concepts Learned
-
-* Definition of Artificial Intelligence
-* Types of AI
-* AI applications in real-world scenarios
-* Benefits and challenges of AI
-
-##  What I Learned
-
-Today I gained a strong understanding of the fundamentals of Artificial Intelligence. I learned how AI is transforming industries and improving everyday life through automation and intelligent decision-making.
-
-##  Skills Gained
-
-* Basic AI concepts
-* Understanding AI applications
-* Knowledge of AI history and evolution
-
-
-#  AI Fundamentals (NetAcad)
-
+# Linux Essentials (Cisco NetAcad)
 
 04 August 2026
 
-##  Learning Objectives
+## Objective
 
-* Learned the basics of Machine Learning.
-* Understood the difference between Artificial Intelligence, Machine Learning, and Deep Learning.
-* Explored supervised, unsupervised, and reinforcement learning.
-* Learned how AI systems are trained using datasets.
+Today's learning focused on understanding the Linux file system, managing files and directories, and learning how Linux stores data.
 
-##  Key Concepts Learned
+## Topics Covered
 
-* Machine Learning fundamentals
-* Types of Machine Learning
-* Training data and models
-* Features and labels
-* AI model training process
+### Linux File System
 
-##  What I Learned
+* Root directory (/)
+* Home directory
+* Absolute path
+* Relative path
 
-Today I understood how AI systems learn from data instead of being explicitly programmed. I learned the importance of quality datasets and how different machine learning approaches solve different types of problems.
+### Important Directories
 
-##  Skills Gained
+* /home
+* /bin
+* /etc
+* /var
+* /usr
+* /tmp
+* /boot
+* /dev
 
-* Machine Learning basics
-* Understanding AI training process
-* Knowledge of data-driven AI models
+### File Management
+
+* Creating files
+* Creating directories
+* Copying files
+* Moving files
+* Renaming files
+* Deleting files
+
+### Viewing File Content
+
+* cat
+* less
+* head
+* tail
+
+### Wildcards
+
+* *
+* ?
+* []
+
+## Commands Practiced
+
+```bash
+mkdir
+touch
+cp
+mv
+rm
+rmdir
+cat
+head
+tail
+less
+find
+```
+
+## Practical Activities
+
+* Created multiple folders.
+* Created sample text files.
+* Copied files between directories.
+* Renamed files.
+* Deleted unnecessary files.
+* Viewed file contents using different commands.
+* Practiced absolute and relative paths.
+
+## Key Learnings
+
+* Everything in Linux is treated as a file.
+* The root directory is the starting point of the Linux file system.
+* Linux provides powerful commands for managing files efficiently.
+* Understanding directory structure is essential for system administration.
+
+## Summary
+
+Today's session improved my understanding of Linux file management and directory structures. I practiced various commands for creating, moving, copying, and deleting files, which are essential for everyday Linux usage.
 
 
 
-  
-#  AI Fundamentals (NetAcad)
+ # Linux Essentials (Cisco NetAcad)
 
-05 August 2026
+ 05 August 2026
 
-## Learning Objectives
+## Objective
 
-* Learned about responsible and ethical AI.
-* Understood AI bias, fairness, transparency, and privacy.
-* Explored real-world AI case studies.
-* Completed the course modules and reviewed key concepts.
+Today's learning focused on Linux users, permissions, package management, and system monitoring.
 
-## Key Concepts Learned
+## Topics Covered
 
-* Ethical AI
-* Responsible AI principles
-* AI bias and fairness
-* Privacy and security in AI
-* Future trends in Artificial Intelligence
+### Linux Users and Groups
 
-## What I Learned
+* Root user
+* Standard user
+* Groups
+* User ownership
 
-Today I learned that developing AI is not only about creating intelligent systems but also about ensuring they are fair, transparent, secure, and beneficial to society. Responsible AI is essential for building trustworthy applications.
+### File Permissions
 
-## Skills Gained
+* Read (r)
+* Write (w)
+* Execute (x)
 
-* AI ethics awareness
-* Responsible AI principles
-* Understanding AI governance
-* Overall AI Fundamentals knowledge
+### Permission Commands
+
+* chmod
+* chown
+
+### Package Management
+
+* Updating repositories
+* Installing software
+* Removing packages
+
+### System Monitoring
+
+* Running processes
+* System information
+* Memory usage
+* CPU usage
+
+## Commands Practiced
+
+```bash
+chmod
+chown
+sudo
+apt update
+apt upgrade
+apt install
+ps
+top
+free
+df -h
+uname -a
+history
+```
+
+## Practical Activities
+
+* Checked file permissions.
+* Modified file permissions.
+* Explored user ownership.
+* Updated package repositories.
+* Installed software using the package manager.
+* Monitored running processes.
+* Viewed system information and disk usage.
+
+## Key Learnings
+
+* Linux permissions improve system security.
+* The root user has complete control over the operating system.
+* Package managers simplify software installation and updates.
+* System monitoring commands help identify resource usage and troubleshoot issues.
+
+## Summary
+
+Today's learning strengthened my understanding of Linux security, user management, package management, and system monitoring. These concepts are essential for system administration, cloud computing, DevOps, and software engineering.
+
+
+
+
 
 
 
