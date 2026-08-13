@@ -503,6 +503,352 @@ Today's lesson gave me a deeper understanding of how Linux commands work behind 
 
 
 
+#  Linux Essentials – 6-Day
+##  File and Directory Management
+
+10-08-2026
+
+On the first day, I focused on the basic Linux commands used to manage files and directories. I practiced creating, copying, moving, renaming, and deleting files and directories through the terminal.
+
+### Commands Learned
+
+* `cp` – Copy files and directories.
+* `mkdir` – Create new directories.
+* `mv` – Move or rename files and directories.
+* `rm` – Remove files or directories.
+* `rmdir` – Remove empty directories.
+* `touch` – Create empty files or update file timestamps.
+
+### Practical Learning
+
+I practiced these commands in the Linux terminal to understand how files and directories are managed without using a graphical interface.
+
+For example:
+
+```bash
+mkdir linux-practice
+cd linux-practice
+touch file1.txt
+cp file1.txt file2.txt
+mv file2.txt renamed.txt
+rm renamed.txt
+```
+
+Through these practical exercises, I gained a better understanding of Linux's command-line environment and filesystem operations.
+
+### Key Learning
+
+I learned that Linux provides powerful command-line tools for managing files efficiently. Understanding these commands is important for system administration, DevOps, server management, and automation.
+
+
+
+## 🗜️ File Compression, Archives and Text Processing day-07
+
+11-08-2026
+
+
+On the second day, I learned about **archive files, compression, and text-processing commands**.
+
+### Archiving and Compression
+
+I learned how to create and extract archives using:
+
+* `tar`
+* `gzip`
+* `bzip2`
+* `xz`
+* `zip`
+* `unzip`
+
+I learned that `tar` is mainly used for creating archives, while compression tools such as `gzip`, `bzip2`, and `xz` can reduce the size of files.
+
+I also learned that Linux commonly uses combinations such as:
+
+```bash
+tar -czf archive.tar.gz files/
+tar -xzf archive.tar.gz
+```
+
+### Text Processing Commands
+
+I practiced several commands for viewing and processing text:
+
+* `cat` – Display file contents.
+* `less` – View files page by page.
+* `head` – Display the beginning of a file.
+* `tail` – Display the end of a file.
+* `sort` – Sort lines of text.
+* `cut` – Extract selected sections or columns.
+* `grep` – Search and filter lines matching a pattern.
+
+Example:
+
+```bash
+cat students.txt
+head students.txt
+tail students.txt
+grep "Linux" students.txt
+sort students.txt
+```
+
+### Practical Learning
+
+The practical exercises helped me understand how Linux administrators can quickly search, inspect, and manipulate large amounts of text directly from the terminal.
+
+I especially found `grep`, `sort`, `cut`, `head`, and `tail` useful because these commands can be combined with other Linux commands for efficient data processing.
+
+---
+
+
+
+## Shell Scripting and Variables day-08
+
+12-08-2026
+
+On the third day, I studied the fundamentals of **Bash shell scripting**.
+
+### Topics Learned
+
+* Shebang (`#!`)
+* `/bin/bash`
+* Variables
+* Arguments
+* `echo`
+* Exit status
+* `for` loops
+
+### Shebang
+
+I learned that the shebang is normally placed on the first line of a shell script to specify which interpreter should execute the script.
+
+Example:
+
+```bash
+#!/bin/bash
+```
+
+### Variables
+
+I learned that variables are used to store information that can be used later in a script.
+
+Example:
+
+```bash
+name="Dhanushan"
+echo "Hello $name"
+```
+
+### Arguments
+
+I learned that arguments allow information to be passed to a script when executing it.
+
+Example:
+
+```bash
+#!/bin/bash
+echo "Hello $1"
+```
+
+The `$1` represents the first argument passed to the script.
+
+### Exit Status
+
+I learned about exit statuses, which indicate whether a command or program completed successfully or encountered an error.
+
+Linux commonly uses:
+
+```text
+0 = Success
+Non-zero = Error or failure
+```
+
+### For Loops
+
+I also learned how `for` loops can be used to execute a set of commands repeatedly.
+
+Example:
+
+```bash
+for file in *.txt
+do
+    echo "$file"
+done
+```
+
+### Practical Experience
+
+I practiced creating and executing simple Bash scripts. This helped me understand how repetitive tasks can be automated using shell scripting.
+
+This topic was particularly interesting because scripting is closely related to **Linux administration, DevOps, automation, and CI/CD practices**.
+
+---
+
+
+## Computer Hardware, Linux Storage and System Processes  day-09
+
+13-08-2026
+
+On the fourth day, I studied **computer hardware and where Linux stores system information and data**.
+
+### Computer Hardware
+
+I learned about:
+
+* Motherboards
+* Processors (CPU)
+* RAM
+* Hard drives
+* Solid State Disks (SSD)
+* Partitions
+* Optical drives
+* Peripherals
+* Power supplies
+* Device drivers
+
+### Hardware Understanding
+
+I learned that the **motherboard** connects major hardware components such as the CPU and RAM.
+
+The **processor (CPU)** executes instructions and performs calculations.
+
+I also learned the difference between traditional hard drives and SSDs. HDDs contain moving mechanical parts, while SSDs use memory chips and have no moving spinning disks.
+
+### Device Files
+
+I learned about:
+
+```text
+/dev/sd*
+```
+
+These device files are commonly associated with storage devices such as SATA/SCSI-style disks.
+
+### Linux Important Directories
+
+I studied several important Linux directories:
+
+| Directory   | Purpose                                             |
+| ----------- | --------------------------------------------------- |
+| `/boot/`    | Contains files required for booting Linux           |
+| `/dev/`     | Contains device and special files                   |
+| `/etc/`     | Contains system and host configuration files        |
+| `/proc/`    | Provides information about processes and the kernel |
+| `/sys/`     | Provides information about hardware and devices     |
+| `/var/log/` | Contains system and application log files           |
+
+### System Monitoring Commands
+
+I also learned about:
+
+* `ps` – View running processes.
+* `top` – Monitor processes in real time.
+* `free` – Display memory usage.
+* `dmesg` – Display kernel messages.
+* `syslog` – General term related to Linux system logging.
+
+Example:
+
+```bash
+ps
+top
+free
+dmesg
+```
+
+These commands helped me understand how Linux administrators monitor system performance, processes, memory, hardware messages, and system logs.
+
+---
+
+# Mid Exam Experience
+
+During these four days, I also completed the **Linux Essentials Mid Exam**.
+
+The exam gave me an opportunity to evaluate my understanding of the topics covered so far. Instead of only studying theoretical concepts, the exam required me to recall commands, Linux filesystem concepts, shell scripting concepts, and system-related information.
+
+### What I Learned From the Exam
+
+* I was able to evaluate my current Linux knowledge.
+* I identified topics that I understand well.
+* I found some areas that require additional revision.
+* I improved my ability to answer Linux-related questions under exam conditions.
+* The exam helped me connect theoretical knowledge with practical Linux concepts.
+* It encouraged me to practice commands more frequently instead of relying only on memorization.
+
+The exam experience was valuable because it showed me which concepts I need to strengthen before moving to more advanced Linux and system administration topics.
+
+---
+
+#  Practical Lab Experience
+
+Throughout these four days, I also performed practical exercises using Linux commands and shell scripting.
+
+My practical activities included:
+
+* Creating files and directories.
+* Copying and moving files.
+* Renaming and deleting files.
+* Viewing text files.
+* Searching text using `grep`.
+* Sorting and extracting text.
+* Creating archives.
+* Compressing and extracting files.
+* Creating basic Bash scripts.
+* Working with variables and arguments.
+* Using loops.
+* Checking running processes.
+* Monitoring memory usage.
+* Exploring Linux system directories.
+
+The lab sessions helped me understand how Linux commands actually work in a real terminal environment.
+
+---
+
+# Overall Learning Outcomes
+
+After completing these four days, I improved my understanding of:
+
+* Linux file and directory management.
+* Linux command-line operations.
+* Text processing.
+* File archiving and compression.
+* Bash shell scripting.
+* Variables and script arguments.
+* Loops and exit statuses.
+* Computer hardware components.
+* Linux device files.
+* Linux filesystem directories.
+* Processes and memory.
+* System logs and kernel messages.
+* Practical Linux administration.
+
+Most importantly, I learned that Linux knowledge is not only about memorizing commands. **Practical usage, troubleshooting, scripting, and understanding how the operating system works are equally important.**
+
+---
+
+#  Personal Reflection
+
+These four days were an important part of my Linux learning journey. The combination of **theory, practical labs, and the Mid Exam** helped me evaluate my progress more effectively.
+
+The practical command exercises made me more comfortable working with the Linux terminal, while shell scripting introduced me to the concept of automating repetitive tasks.
+
+The Mid Exam was also a valuable experience because it allowed me to test myself and identify the areas where I need more practice.
+
+I believe these Linux fundamentals will be useful for my future learning in **System Administration, Networking, DevOps, Cloud Computing, Docker, and CI/CD**.
+
+##  Next Step
+
+My next goal is to continue practicing Linux commands and gradually move toward more advanced topics such as:
+
+* Linux system administration
+* User and permission management
+* Networking commands
+* Process management
+* Shell scripting automation
+* Server administration
+* Docker and DevOps
+* Linux troubleshooting
+
+> **Learning Linux is not just about learning commands — it is about understanding how the operating system works and learning how to manage and automate it effectively.**
 
 
 
